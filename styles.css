@@ -1,0 +1,142 @@
+body {
+font-family: "Graphik Web",Arial,sans-serif;
+margin: 0 auto;
+font-size: 0.9em;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+
+ img {
+  max-width: 100%;
+  height: auto;
+}
+
+.heading {
+    background-color: #003366;
+    color: white;
+    font-size: 1.4em;
+}
+
+.footer {
+  background-color: lightgray;
+}
+
+.heading-small {
+  background-color: #003366;
+  color: white;
+  font-size: 1em;
+}
+
+.main-title {
+  color: #003366;
+  font-size: 2.5em;
+}
+
+.navbar-style {
+  color: #003366;
+  font-size: 2.5em;
+}
+
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.row::after {
+content: "";
+clear: both;
+display: table;
+padding: 0px 0px 0px 20px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.col-h-1 {width: 8.33%; float: left; padding: 15px;}
+.col-h-2 {width: 16.66%; float: left; padding: 15px;}
+.col-h-3 {width: 25%; float: left; padding: 15px;}
+.col-h-4 {width: 33.33%; float: left; padding: 15px;}
+.col-h-5 {width: 41.66%; float: left; padding: 15px;}
+.col-h-6 {width: 50%; float: left; padding: 15px;}
+.col-h-7 {width: 58.33%; float: left; padding: 15px;}
+.col-h-8 {width: 66.66%; float: left; padding: 15px;}
+.col-h-9 {width: 75%; float: left; padding: 15px;}
+.col-h-10 {width: 83.33%; float: left; padding: 15px;}
+.col-h-11 {width: 91.66%; float: left; padding: 15px;}
+.col-h-12 {width: 100%; float: left; padding: 15px;}
+
+.nav-bar {
+  color: #003366;
+  /*display:inline;*/
+}
+
+.nav-bar{
+  text-decoration: none;
+
+}
+
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .col-1 .col-2 .col-9 .col-3 {
+      width: 100%;
+      float: left;
+      padding: 15px;
+      border: 1px solid red;
+    }
+    .col-h-1 {width: 8.33%; float: left; padding: 15px;}
+    .col-h-2 {width: 16.66%; float: left; padding: 15px;}
+    .col-h-3 {width: 25%; float: left; padding: 15px;}
+    .col-h-4 {width: 33.33%; float: left; padding: 15px; border: 1px solid red;}
+    .col-h-5 {width: 41.66%; float: left; padding: 15px; border: 1px solid red;}
+    .col-h-6 {width: 50%; float: left; padding: 15px; border: 1px solid red;}
+    .col-h-7 {width: 58.33%; float: left; padding: 15px; border: 1px solid red;}
+    .col-h-8 {width: 66.66%; float: left; padding: 15px; border: 1px solid red;}
+    .col-h-9 {width: 75%; float: left; padding: 15px; border: 1px solid red;}
+    .col-h-10 {width: 83.33%; float: left; padding: 15px;}
+    .col-h-11 {width: 91.66%; float: left; padding: 15px; border: 1px solid red;}
+    .col-h-12 {width: 100%; float: left; padding: 15px; border: 1px solid red;}
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+ } 

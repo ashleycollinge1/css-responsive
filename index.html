@@ -1,0 +1,74 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Responsive</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="row">
+            <div id="navbar" aria-expanded="false" class="col-h-2 navbar-style">&#x2630;</div>
+            <div class="col-h-10 main-title">Ashley Collinge</div> <!-- 25% -->
+        </div>
+        <div class="row">
+            <div class="col-12 heading">CV</div>
+        </div>
+        <div class="row">
+            <div class="col-12">Experienced and results focused technical professional specialising in Virtualisation, Automation and Cloud.</div>
+        </div> 
+        <div class="row">
+            <div class="col-12 heading-small">Service Operations Integration Engineer, CDW UK<br /><i>September 2021 - Present</i></div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                Managing Azure B2B multi-tenant environments using Azure Lighthouse and MPN CSP Portals, and AWS B2B environments for AWS integrations.
+                <p>Provisioning of windows and linux security and monitoring appliances in Azure, AWS and on premise for monitoring and alert management.</p>
+                <p>Automating SNMP deployment for monitoring and alert management across cloud and on-premise domains.</p>
+                <p>HLD and LLD development for integration and transition requirements.</p>
+                <p>Preparing client’s Wintel environments for SNMP and Powershell application monitoring, and enabling WinRM for remote management of wider server estates using both HTTP and HTTPS certificate based connectivity for maximum security.</p>
+                <p>Carrying out client environment health checks using scripted methods to query and document overall health status and remediation recommendations of client environments and suitability for support prior to transitioning to the wider CDW support and service delivery teams.</p>
+                <p>Conducting assessments and health reviews of client infrastructure spanning technologies such Active Directory, Exchange, SQL, Nutanix, Citrix, Hyper V, VMWare, Azure, AWS etc.</p>
+                <p>Enroll clients network appliances on to Restore point for support and backups.</p>
+                Azure Enterprise application integration using APIs.
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 heading-small">Infrastructure Manager, Profine UK Extrusions Ltd.</div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                Supported business from administration through to acquisition and sale of assets.
+                <p>Supported Group IT to transition to centralised resources.</p>
+                <p>Rollout of 3rd party managed phone system using Alcatel.</p>
+                <p>3rd party Toshiba printer deployment rolled out, with Papercut to secure access and to manage print costs.</p>
+                <p>Provided IT management and support for secondary business that purchased Aperture assets whilst transitioning to their own Group services.</p>
+                <p>Rolled out Call Recording and Reporting system to support Customer Service teams.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 footer">
+                LinkedIn
+                <br />
+                Github
+                <br />
+                © 2020-2022 Ashley Collinge
+            </div>
+        </div>
+    </body>
+
+<script>
+     document.getElementById("navbar").addEventListener("click", dropdownnav); 
+    function dropdownnav() {
+        // change the content to X
+        var navbar = document.getElementById("navbar");
+        var navbarattr = navbar.getAttribute("aria-expanded"); 
+        if (navbarattr == 'true'){
+            navbar.innerHTML = "&#x2630;";
+            navbar.setAttribute("aria-expanded", "false")
+        } else {
+            navbar.innerHTML = "&#10005;";
+            navbar.setAttribute("aria-expanded", "true")
+        }
+    } 
+</script>
+</html>
