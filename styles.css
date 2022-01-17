@@ -14,6 +14,10 @@ font-size: 0.9em;
   height: auto;
 }
 
+.faceimage img {
+  max-height:10em;
+}
+
 .no-list-style {
   list-style: none;
   margin: 0;
@@ -115,13 +119,15 @@ padding: 0px 0px 0px 20px;
     .col-h-10 {width: 83.33%; float: left; padding: 15px;}
     .col-h-11 {width: 91.66%; float: left; padding: 15px; border: 1px solid red;}
     .col-h-12 {width: 100%; float: left; padding: 15px; border: 1px solid red;}
-    .faceimage {display: none;}
+    .faceimage {display: inline;}
     .navbar-style {display: inline;}
+    .blank-col {display: none;} /* dont display blank cols */
+    .full-width {width: 100%;}
  }
 
  /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (min-width: 600px) {
-  .faceimage {display: none;}
+  .faceimage {display: inline;}
   .navbar-style {display: inline;}
  }
  
